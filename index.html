@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>PM-NeuS:Progressive Sampling and Monocular Priors Enhanced Neural Surface Reconstruction</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -148,7 +148,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recently, neural implicit surface reconstruction have become a popular method for multi-view 3D reconstruction. However, existing methods suffer from several drawbacks, primarily manifested in long training times, with two main reasons: Firstly, there are numerous empty regions between the camera and the object surface, where the in-formation contribution to the final reconstruction quality is low. Secondly, each ray sample requires querying large multilayer perceptrons, leading to heavy computational burdens during training, affecting efficiency. Additionally, the lack of geometric constraints during 3D reconstruction results in suboptimal reconstruction outcomes. To address this challenge, we introduce a method called PM-NeuS. Our approach includes two key innovations: (1) a progressive sampling strategy based on multi-resolution hash coding is designed to reasonably sample coordinate points in the space and reduce training time, and (2) theuse of monocular prior knowledge to constrain surface geometry, thereby enhancing reconstruction quality.Extensive experiments demonstrate that our method generates high-quality surfaces, particularly excelling in fine-grained details and smooth areas, and achieves a training speed 22 times faster than NeuS.
           </p>
         </div>
       </div>
